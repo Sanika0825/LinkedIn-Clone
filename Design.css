@@ -1,0 +1,697 @@
+ /* reset */
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  html,body{height:100%;font-family: "Segoe UI", Roboto, Arial, sans-serif;background:#fff;color:#222}
+.page {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+
+/*Body Section
+body{
+    font-family:'Roboto', sans-serif;
+    margin-left: 20%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30%;
+    
+}*/
+/*Nav Section*/
+.navbar{
+    width:100%;
+    max-width:1560px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: 300px 1fr; /* fixed left width — important so left content doesn't move */
+    gap:0px;
+    align-items:stretch;
+    padding:28px 22px 0 22px;
+    min-height:50px; /* match screenshot vertical space */
+}
+ .nb{
+    display: flex;
+    margin-right:100%;
+    gap: 30px;
+ }   
+.navbar .logo{
+   
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(46, 46, 189);
+
+}
+.navbar .logo span{
+    background-color: rgb(46, 46, 189);
+    color: white;
+    border-radius: 5px;
+    padding: 2px 2px 2px 2px;
+}
+.nav-center{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+.nav-center li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    margin: 0px;
+    width: 60px;
+}
+
+.nav-right {
+    display: flex;
+    gap: 10px;
+}
+.nav-right .sign{
+    text-decoration: none;
+    border: 1px solid blue;
+    width: 100px;
+    border-radius: 25px;
+    padding: 5%;
+    text-align: center;
+    color: rgb(61, 61, 142);
+    font-weight: 700;
+
+}
+.nav-right .join{
+    text-decoration: none;
+    border: 1px solid blue;
+    width: 200px;
+    border-radius:30px;
+    padding: 5%;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+}
+/*Main Section1*/
+
+.sec1{
+    
+ width:100%;
+    max-width:1260px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: 520px 1fr; /* fixed left width — important so left content doesn't move */
+    gap:40px;
+    align-items:stretch;
+    padding:28px 22px 0 22px;
+    min-height:560px; /* match screenshot vertical space */
+}
+.sec1 .part1{
+    flex:40%;
+    font-size: 30px;
+    margin-right: 10%;
+    letter-spacing: 2px;
+}
+.sec1 .part1 button{
+    padding: 10px;
+    width:400px;
+    margin: 5px;
+    border-radius: 20px;
+    font-weight: 700;
+     margin-top:20px;
+
+}
+.Google{
+background-color: blue;
+color: white;
+
+}
+.Microsoft{
+background-color:white;
+
+}
+.Email{
+   background-color:white;
+ 
+}
+.p1{
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-right: 6%;
+     margin-top:10px;
+
+}
+.p2{
+    font-size: 15px;
+    text-align: center;
+    margin-top:20px;
+
+}
+.p2 a{
+    color: blue;
+    text-decoration: none;
+}
+    
+
+.sec1 .part2{
+    flex:60%
+}
+/*Section2*/
+.container{
+     width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background: #f3f2ef;
+    padding: 56px 0;
+}
+.sec2{
+    max-width:1260px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: 500px 1fr; /* fixed left width — important so left content doesn't move */
+    gap:40px;
+    letter-spacing:normal;    
+}
+.sec2 .part1{
+    flex:40%;
+     margin-bottom: 5%;
+
+}
+.sec2 .part1 .p1{
+    font-size: 30px;
+    text-align: justify;
+    letter-spacing:normal;    
+
+}
+.sec2 .part1 .p2{
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: justify;
+    letter-spacing:normal;    
+
+}
+.sec2 .part2{
+    flex:60%
+}
+.sec2 .part2 li{
+    list-style:none;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 8px;
+    column-gap: 4px;
+     margin-right: 20%;
+     margin-top: 7%;
+
+}
+.sec2 .part2 a{
+    border: 0.5px solid rgb(100, 98, 98);
+    padding: 15px 15px 15px 15px;
+    border-radius:25px;
+}
+/*Section3*/
+.sec3{
+     width:100%;
+    max-width:1260px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: 450px 1fr; /* fixed left width — important so left content doesn't move */
+    gap:40px;
+    align-items:stretch;
+    padding:28px 22px 0 22px;
+    min-height:460px; /* match screenshot vertical space */
+
+}
+.sec3 .part1{
+    flex:40%;
+}
+.sec3 .part1 p{
+    font-size: 33px;
+    
+}
+.sec3 .part2{
+    flex:60%;
+    margin-left: 5%;
+}
+.sec3 .part2 li{
+    list-style:none;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 8px;
+    column-gap: 4px;
+    margin-right: 35%;
+     margin-top: 7%;
+
+}
+.sec3 .part2 a{
+    border: 1px solid rgb(100, 98, 98);
+    padding: 15px 15px 15px 15px;
+    border-radius:25px;
+}
+/*Section4*/
+.sec4{
+    width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background: #f3f2ef;
+  padding: 56px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height:360px; /* match screenshot vertical space */
+}
+.sec4 p{
+    color:brown;
+    font-size: 33px;
+}
+.sec4 button{
+    border: 1px solid rgb(85, 85, 246);
+    color:blue;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+/*Section5*/
+.sec5{
+    width:100%;
+    max-width:1260px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: 500px 1fr; /* fixed left width — important so left content doesn't move */
+    gap:40px;
+    align-items:stretch;
+    padding:28px 22px 0 22px;
+    min-height:460px; /* match screenshot vertical space */
+
+}
+.sec5 .part1{
+    flex: 40%;
+}
+
+.sec5 .part1 .p1{
+   text-align: justify; 
+    font-size: 30px;
+letter-spacing: normal;
+
+}
+.sec5 .part1 .p2{
+    font-size: 20px;
+   text-align: justify; 
+}
+.sec5 .part2{
+    flex: 60%;
+    margin-right: 25%;
+
+}
+.sec5 .part2 li{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 8px;
+    column-gap: 4px;
+    margin-top: 10%;
+}
+.sec5 .part2 a{
+    border:1px solid black;
+    padding: 15px 15px 15px 15px;
+    border-radius:25px;
+}
+/*Section6*/
+.sec6{
+    width:100%;
+    max-width:1260px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: 500px 1fr; /* fixed left width — important so left content doesn't move */
+    gap:40px;
+    align-items:stretch;
+    padding:28px 22px 0 22px;
+    min-height:460px; /* match screenshot vertical space */
+}
+.sec6 .part1{
+    flex: 40%;
+}
+
+.sec6 .part1 .p1{
+    text-align: justify; 
+    font-size: 30px;
+    letter-spacing: normal;
+}
+.sec6 .part1 .p2{
+    font-size: 20px;
+    text-align: justify; 
+}
+.sec6 .part2{
+    flex: 60%;
+}
+.sec6 .part2 li{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    grid-row: 8px;
+    column-gap: 4px;
+    margin-top: 10%;
+    row-gap: 5px;
+    gap:10px;
+}
+.sec6 .part2 a{
+    border: 1px solid black;
+    padding: 15px 15px 15px 15px;
+    border-radius:25px;
+    width:130px ;
+    text-align: center;
+    
+}
+/*Section7*/
+.container{
+     width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background: #f3f2ef;
+    padding: 56px 0;
+}
+
+.sec7{
+     width:100%;
+    max-width:1260px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: 520px 1fr; /* fixed left width — important so left content doesn't move */
+    gap:40px;
+    align-items:stretch;
+    padding:28px 22px 0 22px;
+    min-height:360px; /* match screenshot vertical space */
+    align-items: center;
+}
+.sec7 .part1{
+    flex: 50%;
+}
+
+.sec7 .part1 .p1{
+   text-align: justify; 
+    font-size: 30px;
+    color:brown;
+}
+.sec7 .part1 .p2{
+    text-align: justify; 
+    font-size: 20px;
+}
+.sec7 .part2{
+    flex: 50%;
+}
+.sec7 .part2 img{
+    width: 60%;
+    height: 80%;
+}
+/*Section8*/
+.sec8{
+     width:100%;
+    max-width:1260px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: 520px 1fr; /* fixed left width — important so left content doesn't move */
+    gap:40px;
+    align-items:stretch;
+    padding:28px 22px 0 22px;
+    min-height:660px; /* match screenshot vertical space */
+    align-items: center;
+}
+.sec8 .part1{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+
+}
+
+.sec8 .part1 p{
+    font-size: 30px;
+    margin-top: 5%;
+}
+.sec8 .part1 img{
+    width: 40%;
+    height: 30%;
+}
+.sec8 .part1 button{
+    border: 1px solid rgb(216, 209, 209);
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px;
+    width: 200px;
+    background-color: white;
+    margin-top: 5%;
+
+}
+.sec8 .part2{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30%;
+}
+.sec8 .part2 img{
+    width: 40%;
+    height: 30%;
+}
+.sec8 .part2 p{
+    font-size: 30px;
+}
+.sec8 select{
+     border: 1px solid rgb(216, 209, 209);
+    padding: 5px;
+    width: 300px;
+}
+/*section 9*/
+
+.sec9 {
+  position: relative;
+  display: grid;
+  grid-template-columns: 600px 1fr;
+  max-width: 1260px;
+  margin: 0 auto;
+  align-items: center;
+  z-index: 1;
+min-height:560px; /* match screenshot vertical space */
+
+}
+
+/* ✅ the trick: background only for left side */
+.sec9::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 45%;
+  bottom: 0;
+  transform: translateX(-100%); /* shift background fully to left */
+  width: 50vw;            /* covers half of the screen */
+  background: #f3f2ef;    /* light gray background like LinkedIn */
+  z-index: -1;            /* behind content */
+}
+
+.part1 {
+  padding: 40px;
+    gap: 20px;
+
+}
+
+.sec9 .part1 .p1{
+    font-size: 30px;
+    text-align: right;
+    color: brown;
+    margin-right: 15%;
+}
+.sec9 .part1 .p2{
+    text-align: right;
+     margin-bottom: 5%;
+    margin-right: 7%;
+
+}
+
+.sec9 .part1 .btns{
+    display: flex;
+    flex-direction:column ;
+    width: 300px;
+    gap:18px;
+    align-items: right;
+    margin-left:30% ;
+}
+.sec9 .part1 button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f0e7dd;
+        text-align: justify;
+        padding: 10px;
+        border: 1px solid #f0e7dd;
+        font-size: 15px;
+        
+
+}
+.sec9 .part1 button span{
+            font-size: 20px;
+
+}
+.sec9 .part2{
+   background-color:white ;
+}
+.sec9 .part2 img{
+    width: 90%;
+    height: 90%;
+    margin-left:5% ;
+    
+}
+/*section 10*/
+
+.sec10 {
+  position: relative;
+  display: grid;
+  grid-template-columns: 600px 1fr;
+  max-width: 1260px;
+  margin: 0 auto;
+  align-items: center;
+  z-index: 1;
+  min-height:560px; /* match screenshot vertical space */
+
+}
+
+/*for left side background*/
+.sec10::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 30%;
+  bottom: 0;
+  transform: translateX(0%); /* shift background fully to left */
+  width: 50vw;            /* covers half of the screen */
+  background: #dbeafe;    /* light gray background like LinkedIn */
+  z-index: -1;            /* behind content */
+}
+
+.sec10 .frame{
+    flex: 50%;
+}
+
+.sec10 .part2 {
+    flex: 50%;
+    
+}
+.sec10 .part2 .p1{
+    text-align: left;
+    margin-left: 5%;
+    font-size: 30px;
+}
+.sec10 .part2 .p2{
+    text-align: left;
+    margin-left: 5%;
+    font-size: 20px;
+    margin-right: 25%;
+}
+/*section 11*/
+.sec11{
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    padding: 56px 0;
+    background-image: url(sec11.png);
+    min-height:860px; /* match screenshot vertical space */
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.sec11 .center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width:1260px ;
+}
+.sec11 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-left:5%;
+
+}
+.sec11  a{
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right:80%;
+    text-decoration: none;
+
+}
+
+/*section 12*/
+.container{
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background: #f3f2ef;
+    padding: 56px 0;
+}
+
+.sec12{
+    display: flex;
+    justify-content: center;
+    gap:80px;
+    min-height: 60px;
+}
+.sec12 .logo{
+    font-size:25px;
+    font-weight: 600;
+    color: blue;
+}
+.sec12 .logo span{
+    background-color: blue;
+    color: white;
+    padding: 0px 2px 0px 2px;
+}
+.sec12 li{
+    list-style: none;
+    font-size: 15px;
+}
+.sec12 p{
+    font-size: 20px;
+    font-weight: bold;
+}
+/*footer section*/
+footer{
+    display: flex;
+    font-size: 15px;
+    gap:10px;
+}
+footer .logo {
+    font-size: 15px;
+    font-weight: 700;
+}
+footer .logo span{
+    background-color: black;
+    color: white ;
+    margin-left:2px;
+}
+footer select{
+    width:150px
+}
+
+
+
